@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "AquaGear.accounts.apps.AccountsConfig",
+    "AquaGear.common.apps.CommonConfig",
+    "AquaGear.products.apps.ProductsConfig"
 ]
 
 MIDDLEWARE = [
